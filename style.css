@@ -1,0 +1,42 @@
+body {
+    background-color: #fff0f5;
+}
+
+h2 {
+    color: #d63384;
+}
+
+.timer {
+    background-color: #ffe6f0;
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+#color_nav {
+
+    background-color: #90553C;
+    
+    }
+    
+    .banner-container {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .banner-img {
+        width: 100%;
+        height: auto;
+        max-height: 500px;
+        /* Opcional: limita la altura */
+        object-fit: cover;
+        /* Recorta la imagen si es muy alta */
+        display: block;
+    }
+
+    .navbar-nav .nav-link {
+        color: white !important;
+    }
+
+
+    

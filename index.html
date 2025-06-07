@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feliz cumpleaños corazon </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .navbar-brand {
+            font-weight: 600;
+            font-size: 1.5rem;
+        }
+
+        .nav-link {
+            font-weight: 300;
+            font-size: 1rem;
+        }
+
+
+        .card-img-top {
+            height: 450px;
+            
+            object-fit: cover;
+        }
+
+        .album-img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .album-img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-light  shadow-sm py-3 fixed-top" id="color_nav">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">Para mi niña linda ❤️ </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMinimal"
+                aria-controls="navbarMinimal" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse color"  id="navbarMinimal">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#carrusel">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#musica">Cancion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#frases">Frases</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeria">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#temporizador">Tiempo Juntos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#carta">Carta</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br> 
+<!-- FOTO PRINCIPAL -->
+<section id="carrusel" class="py-5 bg-light text-center">
+    <div class="banner-container">
+      <img src="/assets/Feliz cumpleaños vale-2.png" class="banner-img" alt="Foto principal">
+    </div>
+  </section>
+    <!--album -->
+    <section id="musica" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Nuestra canción 🎶</h2>
+            <div class="row align-items-center">
+                <!-- Imagen del álbum -->
+                <div class="col-md-6 text-center">
+                    <img src="/assets/lover.jpg" alt="Álbum" class="img-fluid rounded shadow-sm mb-3"
+                        style="max-height: 450px;">
+                    <audio controls class="w-100">
+                        <source src="/assets/lover-español--lyrics--video-musical.mp3" type="audio/mpeg">
+                        Tu navegador no soporta audio HTML5.
+                    </audio>
+                </div>
+                <!-- Texto romántico -->
+                <div class="col-md-6">
+                    <div class="p-3 bg-white rounded shadow-sm">
+                        <h5>Lo que siento cada vez que suena esta canción...</h5>
+                        <p class="mt-3" style="font-size: 1.1rem;">
+                            Esta canción no es solo música... es cada momento que hemos vivido juntos. Cada vez que la escucho, vienen a mi mente tus sonrisas, tus abrazos, y sobre todo, tus ojos… esos ojos que me hablan sin decir una palabra, que me calman, que me hacen sentir en paz.
+                            Es como si la canción hablara de nosotros, como si cada palabra, cada ritmo, estuviera contando nuestra historia. Me hace sentir cerca de ti, como si tus ojos me miraran en cada compás.
+                            Es nuestro pedacito de amor hecho sonido. Un recuerdo que vibra en mi corazón cada vez que suena.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--carrusel frases-->
+    <section id="frases" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-4">Frases que me hacen pensar en ti 💌</h2>
+            <br>
+            <div id="fraseCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner text-center">
+                    <div class="carousel-item active">
+                        <blockquote class="blockquote">
+                            <p class="mb-4">“Más allá de lo que enseñas, me enamora cómo lo haces.”</p>
+                        </blockquote>
+                    </div>
+                    <div class="carousel-item">
+                        <blockquote class="blockquote">
+                            <p class="mb-4">“Desde que te conocí, todo tiene más color.”</p>
+                        </blockquote>
+                    </div>
+                    <div class="carousel-item">
+                        <blockquote class="blockquote">
+                            <p class="mb-4">“Contigo, incluso el silencio se siente como una canción.”</p>
+                        </blockquote>
+                    </div>
+                    <div class="carousel-item">
+                        <blockquote class="blockquote">
+                            <p class="mb-4">“Tu forma de enseñar es arte, y yo ya soy fan de tu clase... y de ti.”</p>
+                        </blockquote>
+                    </div>
+                    <div class="carousel-item">
+                        <blockquote class="blockquote">
+                            <p class="mb-4">“Magistrales tus ojos, los marcadores que .”</p>
+                        </blockquote>
+                    </div>
+                    <div class="carousel-item">
+                        <blockquote class="blockquote">
+                            <p class="mb-4">“Maestra del mañana, dueña de mi corazón hoy.”</p>
+                        </blockquote>
+                    </div>
+                    <div class="carousel-item">
+                        <blockquote class="blockquote">
+                            <p class="mb-4">“En tu mirada aprendí lo que es amor.”</p>
+                        </blockquote>
+                    </div>
+                    <div class="carousel-item">
+                        <blockquote class="blockquote">
+                            <p class="mb-4">“Con cada palabra tuya aprendo a amar mejor.”</p>
+                        </blockquote>
+                    </div>
+                    <div class="carousel-item">
+                        <blockquote class="blockquote">
+                            <p class="mb-4">“Tú vas a cambiar vidas… la mía ya la cambiaste..”</p>
+                        </blockquote>
+                    </div>
+                    <div class="carousel-item">
+                        <blockquote class="blockquote">
+                            <p class="mb-4">“En tu sonrisa aprendí lo que es hogar.”</p>
+                        </blockquote>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#fraseCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: rgba(0,0,0,0.5); border-radius: 80%; padding: 1rem;"></span>
+                    <span class="visually-hidden">Anterior</span>
+                  </button>
+            
+                  <!-- Botón Siguiente -->
+                  <button class="carousel-control-next" type="button" data-bs-target="#fraseCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: rgba(0,0,0,0.5); border-radius: 80%; padding: 1rem;"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                  </button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- GALERÍA -->
+    <section id="galeria" class="py-5 text-center bg-white">
+        <h2 class="mb-4">Nuestros Momentos 📸</h2>
+        <div class="container">
+            <div class="row g-4">
+                <!-- Foto 1 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card shadow-sm">
+                        <img src="/assets/foto1.jpg" class="card-img-top" alt="foto1">
+                        <div class="card-body">
+                            <p class="card-text">Ese día tan especial 🎉</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Foto 2 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card shadow-sm">
+                        <img src="/assets/2.jpg" class="card-img-top" alt="foto2">
+                        <div class="card-body">
+                            <p class="card-text"> Te quiero mucho <3 </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Foto 3 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card shadow-sm">
+                        <img src="/assets/3.jpg" class="card-img-top" alt="foto3">
+                        <div class="card-body">
+                            <p class="card-text">Nuestra primera foto ✨</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Foto 4 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card shadow-sm">
+                        <img src="/assets/4.jpg" class="card-img-top" alt="foto4">
+                        <div class="card-body">
+                            <p class="card-text">Ese día muy feliz <3 </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Foto 5 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card shadow-sm">
+                        <img src="/assets/5.jpg" class="card-img-top" alt="foto5">
+                        <div class="card-body">
+                            <p class="card-text">Eres el queso de mi marquesita 💕</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Foto 6 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card shadow-sm">
+                        <img src="/assets/6.jpg" class="card-img-top" alt="foto6">
+                        <div class="card-body">
+                            <p class="card-text">bien lindos que nos vemos 💕 </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Foto 7 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card shadow-sm">
+                        <img src="/assets/7.jpg" class="card-img-top" alt="foto7">
+                        <div class="card-body">
+                            <p class="card-text">Juntos somos magia ✨</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Foto 8 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card shadow-sm">
+                        <img src="/assets/8.jpg" class="card-img-top" alt="foto8">
+                        <div class="card-body">
+                            <p class="card-text">Amor infinito ♾️</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Foto 9 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card shadow-sm">
+                        <img src="/assets/9.jpg" class="card-img-top" alt="foto8">
+                        <div class="card-body">
+                            <p class="card-text">Tus ojos me enamoran ✨</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEMPORIZADOR -->
+    <section id="temporizador" class="py-5 bg-light text-center">
+        <h2>Desde que empezó todo... ⏳</h2>
+        <div class="timer display-6 mt-3">
+            <span id="days"></span> días,
+            <span id="hours"></span> horas,
+            <span id="minutes"></span> minutos y
+            <span id="seconds"></span> segundos 💘
+        </div>
+    </section>
+
+    <!-- CARTA -->
+    <section id="carta" class="py-5 text-center bg-white">
+        <h2 class="mb-4">Una Carta Para Ti 💌</h2>
+        <div class="container">
+            <div class="card mx-auto shadow-lg p-4" style="max-width: 600px;">
+                <p class="fs-5">
+                    Mi amor<br><br>
+                    Hoy celebramos algo más que una fecha: celebramos tu existencia, tu luz, tu sonrisa que ilumina incluso los días más grises. Celebramos todo lo que eres y todo lo que haces sentir.<br><br>
+                    Desde que llegaste a mi vida, cada momento a tu lado ha sido un regalo. Tu ternura, tu fuerza, tu forma única de mirar el mundo me inspiran a ser mejor cada día. No sabes cuánto agradezco al universo por cruzarte en mi camino.<br><br>
+                    Gracias por hacerme sentir amado, por cada gesto lleno de cariño, por cada palabra que me reconforta y por cada abrazo que me hace sentir en casa. Eres mi alegría, mi calma, mi razón para sonreír sin razón.<br><br>
+                    Hoy, en tu cumpleaños, solo quiero recordarte cuánto te amo. No solo hoy, sino todos los días. Te amo con el alma, con todo lo que soy, con cada latido.<br><br>
+                    Feliz cumpleaños, mi reina. Que la vida te regale tanta felicidad como la que tú me das a mí. Que tus sueños se hagan realidad y que sigamos construyendo los nuestros juntos.<br><br>
+                    Con todo mi amor,<br>
+                    <strong>Arenas ❤️🎂</strong>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class=" text-white text-center py-3" id="color_nav">
+        Con todo mi amor, Arenas 💞
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const startDate = new Date("2025-05-17T00:00:00");
+        function updateTimer() {
+            const now = new Date();
+            const diff = now - startDate;
+
+            const seconds = Math.floor(diff / 1000) % 60;
+            const minutes = Math.floor(diff / 1000 / 60) % 60;
+            const hours = Math.floor(diff / 1000 / 60 / 60) % 24;
+            const days = Math.floor(diff / 1000 / 60 / 60 / 24);
+
+            document.getElementById("days").textContent = days;
+            document.getElementById("hours").textContent = hours;
+            document.getElementById("minutes").textContent = minutes;
+            document.getElementById("seconds").textContent = seconds;
+        }
+        setInterval(updateTimer, 1000);
+        updateTimer();
+    </script>
+</body>
+
+</html>
